@@ -1,0 +1,230 @@
+{
+  "format": "bcf-link-rescue-inventory/1",
+  "frame": {
+    "contexts": [
+      {
+        "dimension": 3,
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "true_north": null,
+        "type": "Model"
+      }
+    ],
+    "map_conversions": [],
+    "sites": []
+  },
+  "length_unit_m": 1.0,
+  "products": [
+    {
+      "class": "IfcBeam",
+      "global_id": "05cpE3LxvUZxBBL$kzP2p5",
+      "placement": {
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          9.0,
+          0.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": "T-106"
+    },
+    {
+      "class": "IfcColumn",
+      "global_id": "08MMcC8k9JhgdyN_qtyKDk",
+      "placement": {
+        "rotation": [
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          5.0,
+          3.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": "C-102"
+    },
+    {
+      "class": "IfcWall",
+      "global_id": "1Y$4IacqvPGenCujrPpGyf",
+      "placement": {
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          8.1,
+          0.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": "M-105"
+    },
+    {
+      "class": "IfcWall",
+      "global_id": "1fdTm7sVPNa8GN4EPeDjMK",
+      "placement": {
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          3.0,
+          0.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": "D-103"
+    },
+    {
+      "class": "IfcWall",
+      "global_id": "3g9lKy9ffUz8V2PNqN4UCp",
+      "placement": {
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": "STAY-001"
+    },
+    {
+      "class": "IfcWall",
+      "global_id": "3k$1aGHYDToge67hSH2I4A",
+      "placement": {
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          2.0,
+          0.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": "W-101"
+    },
+    {
+      "class": "IfcWall",
+      "global_id": "3keiN4al1T1APgR$N4oqp8",
+      "placement": {
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          6.0,
+          0.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": null
+    },
+    {
+      "class": "IfcWall",
+      "global_id": "3yYkoorS9Ptx8$QWP2CbJK",
+      "placement": {
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          4.0,
+          0.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": "D-103"
+    }
+  ],
+  "schema": "IFC4",
+  "source": {
+    "name": "new.ifc",
+    "sha256": "4820045ea1a4b7346a85079f8eba84cfda24fd76367a04bbd80b6a93f53fe132"
+  }
+}

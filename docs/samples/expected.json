@@ -1,0 +1,41 @@
+{
+  "cloned_viewpoints": 1,
+  "format": "bcf-link-rescue-expected/1",
+  "groups": {
+    "coloring": 10,
+    "selection": 10,
+    "visibility": 10
+  },
+  "mapping": {
+    "0rKsaRRzDO5BMzRgukLskT": "08MMcC8k9JhgdyN_qtyKDk",
+    "2W5SKJ45fLpebghBHO9WsY": "3k$1aGHYDToge67hSH2I4A"
+  },
+  "new_products": 8,
+  "old_products": 9,
+  "original_topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+  "original_viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531",
+  "provenance": "Generated from real IFC files by generate_samples.py using IfcOpenShell 0.9.0. All data is synthetic.",
+  "reference_nodes": 30,
+  "review_draft": true,
+  "status_counts": {
+    "absent_old": 3,
+    "ambiguous_old": 6,
+    "class_changed": 3,
+    "missing_tag": 3,
+    "moved": 3,
+    "rebound": 6,
+    "removed": 3,
+    "retained": 3
+  },
+  "unique_references": 10,
+  "unique_status_counts": {
+    "absent_old": 1,
+    "ambiguous_old": 2,
+    "class_changed": 1,
+    "missing_tag": 1,
+    "moved": 1,
+    "rebound": 2,
+    "removed": 1,
+    "retained": 1
+  }
+}

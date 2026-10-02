@@ -1,0 +1,484 @@
+{
+  "draft": true,
+  "format": "bcf-link-rescue-report/1",
+  "frame_compatible": true,
+  "inputs": {
+    "bcf_sha256": "832533004dd6c50b0898bad2fe7f9db167ac7271a4a2255d7ad2dbd5022008d6",
+    "new_model": {
+      "name": "new.ifc",
+      "sha256": "4820045ea1a4b7346a85079f8eba84cfda24fd76367a04bbd80b6a93f53fe132"
+    },
+    "old_model": {
+      "name": "old.ifc",
+      "sha256": "2930b4377ca6ff740a1d388af9cb665c14a651da44fad0d135a22b7b90313b3e"
+    }
+  },
+  "notice": "Review draft. Inspect cloned viewpoints against your actual updated model before using or sharing.",
+  "output_bcf_sha256": "31c7821af8bd01210ca8787ad08e1ac7495dfa8f7066bd6c87a61f3b1871469d",
+  "output_files": [
+    {
+      "name": "196790c8-a390-50bd-af2c-3b8f17de314a/markup.bcf",
+      "sha256": "fd65dc001486d51ab6f1875bb9defb86c65fc6e522e44e690b3a3a10ca4351ec"
+    },
+    {
+      "name": "196790c8-a390-50bd-af2c-3b8f17de314a/rescue-db7eedaa-2ab4-55eb-a38f-37626ea51b93.bcfv",
+      "sha256": "6eb1533c92c5e256e1128b5a9b25481378d1d90f01629cba8ef52ea470d176f4"
+    },
+    {
+      "name": "196790c8-a390-50bd-af2c-3b8f17de314a/snapshot.png",
+      "sha256": "431ced6916a2a21a156e38701afe55bbd7f88969fbbfc56d7fe099d47f265460"
+    },
+    {
+      "name": "196790c8-a390-50bd-af2c-3b8f17de314a/viewpoint.bcfv",
+      "sha256": "b2f815127be35ebe1af3b773d63e8c6e65c7db01584153bbe8a52b31c20ecedc"
+    },
+    {
+      "name": "bcf.version",
+      "sha256": "06bab188414b013c50f644498af99852a75dfd51d1816cb32c39a5a3a71d8ad7"
+    }
+  ],
+  "preserved_files": [
+    {
+      "name": "196790c8-a390-50bd-af2c-3b8f17de314a/snapshot.png",
+      "sha256": "431ced6916a2a21a156e38701afe55bbd7f88969fbbfc56d7fe099d47f265460"
+    },
+    {
+      "name": "196790c8-a390-50bd-af2c-3b8f17de314a/viewpoint.bcfv",
+      "sha256": "b2f815127be35ebe1af3b773d63e8c6e65c7db01584153bbe8a52b31c20ecedc"
+    },
+    {
+      "name": "bcf.version",
+      "sha256": "06bab188414b013c50f644498af99852a75dfd51d1816cb32c39a5a3a71d8ad7"
+    }
+  ],
+  "references": [
+    {
+      "class": "IfcWall",
+      "detail": "GlobalId still exists in the new IFC.",
+      "group": "selection",
+      "new_guid": "3g9lKy9ffUz8V2PNqN4UCp",
+      "old_guid": "3g9lKy9ffUz8V2PNqN4UCp",
+      "position": 0,
+      "status": "retained",
+      "tag": "STAY-001",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "Unique exact class + Tag and unchanged normalized placement.",
+      "group": "selection",
+      "new_guid": "3k$1aGHYDToge67hSH2I4A",
+      "old_guid": "2W5SKJ45fLpebghBHO9WsY",
+      "position": 1,
+      "status": "rebound",
+      "tag": "W-101",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcColumn",
+      "detail": "Unique exact class + Tag and unchanged normalized placement.",
+      "group": "selection",
+      "new_guid": "08MMcC8k9JhgdyN_qtyKDk",
+      "old_guid": "0rKsaRRzDO5BMzRgukLskT",
+      "position": 2,
+      "status": "rebound",
+      "tag": "C-102",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "Class + Tag is duplicated in the old model.",
+      "group": "selection",
+      "new_guid": "0_75btj85M8vUOJLUNBYlj",
+      "old_guid": "0_75btj85M8vUOJLUNBYlj",
+      "position": 3,
+      "status": "ambiguous_old",
+      "tag": "D-103",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "Class + Tag is duplicated in the old model.",
+      "group": "selection",
+      "new_guid": "1IF7oe2nfMC8sN$VPzyJIU",
+      "old_guid": "1IF7oe2nfMC8sN$VPzyJIU",
+      "position": 4,
+      "status": "ambiguous_old",
+      "tag": "D-103",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "No nonempty exact Tag is available.",
+      "group": "selection",
+      "new_guid": "0LGM6rz95UdRKGbG2OvwwS",
+      "old_guid": "0LGM6rz95UdRKGbG2OvwwS",
+      "position": 5,
+      "status": "missing_tag",
+      "tag": "",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "No component with this class + Tag exists in the new model.",
+      "group": "selection",
+      "new_guid": "30Vg8hG$nLb8mUMJmcazxf",
+      "old_guid": "30Vg8hG$nLb8mUMJmcazxf",
+      "position": 6,
+      "status": "removed",
+      "tag": "D-104",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "Translation or orientation changed beyond the strict tolerance.",
+      "group": "selection",
+      "new_guid": "079zwPyyLN8QRpt$DmtM_7",
+      "old_guid": "079zwPyyLN8QRpt$DmtM_7",
+      "position": 7,
+      "status": "moved",
+      "tag": "M-105",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "Tag exists in the new model under a different IFC class.",
+      "group": "selection",
+      "new_guid": "38VygpBDzOq88IyVV$J66b",
+      "old_guid": "38VygpBDzOq88IyVV$J66b",
+      "position": 8,
+      "status": "class_changed",
+      "tag": "T-106",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "",
+      "detail": "Reference is absent from the old IFC inventory.",
+      "group": "selection",
+      "new_guid": "0vuxW1nx9VR8jtHmVqpg1z",
+      "old_guid": "0vuxW1nx9VR8jtHmVqpg1z",
+      "position": 9,
+      "status": "absent_old",
+      "tag": "",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "GlobalId still exists in the new IFC.",
+      "group": "visibility",
+      "new_guid": "3g9lKy9ffUz8V2PNqN4UCp",
+      "old_guid": "3g9lKy9ffUz8V2PNqN4UCp",
+      "position": 10,
+      "status": "retained",
+      "tag": "STAY-001",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "Unique exact class + Tag and unchanged normalized placement.",
+      "group": "visibility",
+      "new_guid": "3k$1aGHYDToge67hSH2I4A",
+      "old_guid": "2W5SKJ45fLpebghBHO9WsY",
+      "position": 11,
+      "status": "rebound",
+      "tag": "W-101",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcColumn",
+      "detail": "Unique exact class + Tag and unchanged normalized placement.",
+      "group": "visibility",
+      "new_guid": "08MMcC8k9JhgdyN_qtyKDk",
+      "old_guid": "0rKsaRRzDO5BMzRgukLskT",
+      "position": 12,
+      "status": "rebound",
+      "tag": "C-102",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "Class + Tag is duplicated in the old model.",
+      "group": "visibility",
+      "new_guid": "0_75btj85M8vUOJLUNBYlj",
+      "old_guid": "0_75btj85M8vUOJLUNBYlj",
+      "position": 13,
+      "status": "ambiguous_old",
+      "tag": "D-103",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "Class + Tag is duplicated in the old model.",
+      "group": "visibility",
+      "new_guid": "1IF7oe2nfMC8sN$VPzyJIU",
+      "old_guid": "1IF7oe2nfMC8sN$VPzyJIU",
+      "position": 14,
+      "status": "ambiguous_old",
+      "tag": "D-103",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "No nonempty exact Tag is available.",
+      "group": "visibility",
+      "new_guid": "0LGM6rz95UdRKGbG2OvwwS",
+      "old_guid": "0LGM6rz95UdRKGbG2OvwwS",
+      "position": 15,
+      "status": "missing_tag",
+      "tag": "",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "No component with this class + Tag exists in the new model.",
+      "group": "visibility",
+      "new_guid": "30Vg8hG$nLb8mUMJmcazxf",
+      "old_guid": "30Vg8hG$nLb8mUMJmcazxf",
+      "position": 16,
+      "status": "removed",
+      "tag": "D-104",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "Translation or orientation changed beyond the strict tolerance.",
+      "group": "visibility",
+      "new_guid": "079zwPyyLN8QRpt$DmtM_7",
+      "old_guid": "079zwPyyLN8QRpt$DmtM_7",
+      "position": 17,
+      "status": "moved",
+      "tag": "M-105",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "Tag exists in the new model under a different IFC class.",
+      "group": "visibility",
+      "new_guid": "38VygpBDzOq88IyVV$J66b",
+      "old_guid": "38VygpBDzOq88IyVV$J66b",
+      "position": 18,
+      "status": "class_changed",
+      "tag": "T-106",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "",
+      "detail": "Reference is absent from the old IFC inventory.",
+      "group": "visibility",
+      "new_guid": "0vuxW1nx9VR8jtHmVqpg1z",
+      "old_guid": "0vuxW1nx9VR8jtHmVqpg1z",
+      "position": 19,
+      "status": "absent_old",
+      "tag": "",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "GlobalId still exists in the new IFC.",
+      "group": "coloring",
+      "new_guid": "3g9lKy9ffUz8V2PNqN4UCp",
+      "old_guid": "3g9lKy9ffUz8V2PNqN4UCp",
+      "position": 20,
+      "status": "retained",
+      "tag": "STAY-001",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "Unique exact class + Tag and unchanged normalized placement.",
+      "group": "coloring",
+      "new_guid": "3k$1aGHYDToge67hSH2I4A",
+      "old_guid": "2W5SKJ45fLpebghBHO9WsY",
+      "position": 21,
+      "status": "rebound",
+      "tag": "W-101",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcColumn",
+      "detail": "Unique exact class + Tag and unchanged normalized placement.",
+      "group": "coloring",
+      "new_guid": "08MMcC8k9JhgdyN_qtyKDk",
+      "old_guid": "0rKsaRRzDO5BMzRgukLskT",
+      "position": 22,
+      "status": "rebound",
+      "tag": "C-102",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "Class + Tag is duplicated in the old model.",
+      "group": "coloring",
+      "new_guid": "0_75btj85M8vUOJLUNBYlj",
+      "old_guid": "0_75btj85M8vUOJLUNBYlj",
+      "position": 23,
+      "status": "ambiguous_old",
+      "tag": "D-103",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "Class + Tag is duplicated in the old model.",
+      "group": "coloring",
+      "new_guid": "1IF7oe2nfMC8sN$VPzyJIU",
+      "old_guid": "1IF7oe2nfMC8sN$VPzyJIU",
+      "position": 24,
+      "status": "ambiguous_old",
+      "tag": "D-103",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "No nonempty exact Tag is available.",
+      "group": "coloring",
+      "new_guid": "0LGM6rz95UdRKGbG2OvwwS",
+      "old_guid": "0LGM6rz95UdRKGbG2OvwwS",
+      "position": 25,
+      "status": "missing_tag",
+      "tag": "",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "No component with this class + Tag exists in the new model.",
+      "group": "coloring",
+      "new_guid": "30Vg8hG$nLb8mUMJmcazxf",
+      "old_guid": "30Vg8hG$nLb8mUMJmcazxf",
+      "position": 26,
+      "status": "removed",
+      "tag": "D-104",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "Translation or orientation changed beyond the strict tolerance.",
+      "group": "coloring",
+      "new_guid": "079zwPyyLN8QRpt$DmtM_7",
+      "old_guid": "079zwPyyLN8QRpt$DmtM_7",
+      "position": 27,
+      "status": "moved",
+      "tag": "M-105",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "IfcWall",
+      "detail": "Tag exists in the new model under a different IFC class.",
+      "group": "coloring",
+      "new_guid": "38VygpBDzOq88IyVV$J66b",
+      "old_guid": "38VygpBDzOq88IyVV$J66b",
+      "position": 28,
+      "status": "class_changed",
+      "tag": "T-106",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    },
+    {
+      "class": "",
+      "detail": "Reference is absent from the old IFC inventory.",
+      "group": "coloring",
+      "new_guid": "0vuxW1nx9VR8jtHmVqpg1z",
+      "old_guid": "0vuxW1nx9VR8jtHmVqpg1z",
+      "position": 29,
+      "status": "absent_old",
+      "tag": "",
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a",
+      "topic_title": "Coordinate wall opening",
+      "viewpoint_id": "4931e1ef-3a68-5572-a154-f323a749a531"
+    }
+  ],
+  "scope": "Component links only. Unchanged placement does not prove unchanged geometry.",
+  "summary": {
+    "cloned_viewpoints": 1,
+    "reference_nodes": 30,
+    "review_nodes": 21,
+    "status_counts": {
+      "absent_old": 3,
+      "ambiguous_old": 6,
+      "class_changed": 3,
+      "missing_tag": 3,
+      "moved": 3,
+      "rebound": 6,
+      "removed": 3,
+      "retained": 3
+    },
+    "topics": 1,
+    "unique_references": 10,
+    "unique_status_counts": {
+      "absent_old": 1,
+      "ambiguous_old": 2,
+      "class_changed": 1,
+      "missing_tag": 1,
+      "moved": 1,
+      "rebound": 2,
+      "removed": 1,
+      "retained": 1
+    }
+  },
+  "viewpoints": [
+    {
+      "draft_file": "196790c8-a390-50bd-af2c-3b8f17de314a/rescue-db7eedaa-2ab4-55eb-a38f-37626ea51b93.bcfv",
+      "draft_id": "db7eedaa-2ab4-55eb-a38f-37626ea51b93",
+      "original_file": "196790c8-a390-50bd-af2c-3b8f17de314a/viewpoint.bcfv",
+      "original_id": "4931e1ef-3a68-5572-a154-f323a749a531",
+      "rebound_reference_nodes": 6,
+      "topic_id": "196790c8-a390-50bd-af2c-3b8f17de314a"
+    }
+  ]
+}

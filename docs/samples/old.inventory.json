@@ -1,0 +1,254 @@
+{
+  "format": "bcf-link-rescue-inventory/1",
+  "frame": {
+    "contexts": [
+      {
+        "dimension": 3,
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "true_north": null,
+        "type": "Model"
+      }
+    ],
+    "map_conversions": [],
+    "sites": []
+  },
+  "length_unit_m": 0.001,
+  "products": [
+    {
+      "class": "IfcWall",
+      "global_id": "079zwPyyLN8QRpt$DmtM_7",
+      "placement": {
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          8.0,
+          0.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": "M-105"
+    },
+    {
+      "class": "IfcWall",
+      "global_id": "0LGM6rz95UdRKGbG2OvwwS",
+      "placement": {
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          6.0,
+          0.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": null
+    },
+    {
+      "class": "IfcWall",
+      "global_id": "0_75btj85M8vUOJLUNBYlj",
+      "placement": {
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          3.0,
+          0.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": "D-103"
+    },
+    {
+      "class": "IfcColumn",
+      "global_id": "0rKsaRRzDO5BMzRgukLskT",
+      "placement": {
+        "rotation": [
+          0.0,
+          -1.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          5.0,
+          3.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": "C-102"
+    },
+    {
+      "class": "IfcWall",
+      "global_id": "1IF7oe2nfMC8sN$VPzyJIU",
+      "placement": {
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          4.0,
+          0.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": "D-103"
+    },
+    {
+      "class": "IfcWall",
+      "global_id": "2W5SKJ45fLpebghBHO9WsY",
+      "placement": {
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          2.0,
+          0.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": "W-101"
+    },
+    {
+      "class": "IfcWall",
+      "global_id": "30Vg8hG$nLb8mUMJmcazxf",
+      "placement": {
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          7.0,
+          0.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": "D-104"
+    },
+    {
+      "class": "IfcWall",
+      "global_id": "38VygpBDzOq88IyVV$J66b",
+      "placement": {
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          9.0,
+          0.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": "T-106"
+    },
+    {
+      "class": "IfcWall",
+      "global_id": "3g9lKy9ffUz8V2PNqN4UCp",
+      "placement": {
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "placement_error": null,
+      "tag": "STAY-001"
+    }
+  ],
+  "schema": "IFC4",
+  "source": {
+    "name": "old.ifc",
+    "sha256": "2930b4377ca6ff740a1d388af9cb665c14a651da44fad0d135a22b7b90313b3e"
+  }
+}
